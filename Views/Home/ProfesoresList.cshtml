@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "Lista Profesores";
+    DateTime  fecha = new DateTime (2024,05,20);
+}
+
+<h1>@ViewData["Lista de Profesores"]</h1>
+<i>@DateTime.Now</> <br>
+<i>@fecha.ToLongDateString()</i> <br><br>
+
+
+<h2 align = "center">Lista de Profesores.</h2>
+<table> 
+    <tr>
+        <th>Nombre</th>
+        <th>Materia</th>
+        <th>Edad</th>
+        <th>Sexo</th>
+        <th>Correo Electronico</th>
+    </tr>
+    <tr>
+        <td>@Model.Nombre</td>
+        <td>@Model.Materia</td>
+        <td>@Model.Edad</td>
+        <td>@Model.Sexo</td>
+        <td>@Model.Email</td>
+        
+    </tr>
+</table>
+<br><br>
+<div id="Image" align = "center">
+    <img src="~/imagenes/profesores.jpg" width="500" height="300"  />
+</div>
+

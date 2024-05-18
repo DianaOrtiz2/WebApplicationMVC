@@ -1,0 +1,33 @@
+@model WebApplicationMVC.Models.StudentModel
+@{
+    ViewData["Title"] = "Lista Alumnos";
+    DateTime  fechaInscripcion = new DateTime (2024,05,20);
+}
+<h1>@ViewData["Lista de alumnos"]</h1>
+<i>@DateTime.Now</> <br>
+<i>@fechaInscripcion.ToLongDateString()</i> <br><br>
+
+
+<h2 align = "center">Lista de Alumnos.</h2>
+<table> 
+    <tr>
+        <th>Nombre</th>
+        <th>Matrícula</th>
+        <th>Edad</th>
+        <th>Carrera</th>
+        <th>Sexo</th>
+
+    </tr>
+    <tr>
+        <td>@Model.Nombre</td>
+        <td>@Model.Matricula</td>
+        <td>@Model.Edad</td>
+        <td>@Model.Carrera</td>
+        <td>@Model.Sexo</td>
+        
+    </tr>
+</table>
+<br><br>
+<div id="Image" align = "center">
+    <img src="~/imagenes/profesores.jpg" width="500" height="300"  />
+</div>
