@@ -43,6 +43,17 @@ public class HomeController : Controller
         };
         return View(student);
     }
+    public IActionResult DegreeList()
+    {
+        var degree = new DegreeModel
+        {
+            
+            Carrera = "Ingeniería en Tecnologías de la Información / Software",
+            Tetra = 9
+            
+        };
+        return View(degree);
+    }
 
 
     public IActionResult Privacy()
