@@ -18,8 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ADSA\Documents\ProyectosC#\WebApplicationMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ADSA/Documents/ProyectosC\#/WebApplicationMVC/Views/Home/degreeList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxkZWdyZWVMaXN0LmNzaHRtbA==
+[C:/Users/ADSA/Documents/ProyectosC\#/WebApplicationMVC/Views/Degree/DegreeAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVncmVlXERlZ3JlZUFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADSA/Documents/ProyectosC\#/WebApplicationMVC/Views/Degree/DegreeEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVncmVlXERlZ3JlZUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADSA/Documents/ProyectosC\#/WebApplicationMVC/Views/Degree/degreeList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVncmVlXGRlZ3JlZUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ADSA/Documents/ProyectosC\#/WebApplicationMVC/Views/Home/Index.cshtml]
@@ -30,12 +38,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADSA/Documents/ProyectosC\#/WebApplicationMVC/Views/Home/ProfesoresList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9mZXNvcmVzTGlzdC5jc2h0bWw=
+[C:/Users/ADSA/Documents/ProyectosC\#/WebApplicationMVC/Views/Profesor/ProfesorAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzb3JcUHJvZmVzb3JBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADSA/Documents/ProyectosC\#/WebApplicationMVC/Views/Home/StudentList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdHVkZW50TGlzdC5jc2h0bWw=
+[C:/Users/ADSA/Documents/ProyectosC\#/WebApplicationMVC/Views/Profesor/ProfesoresList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzb3JcUHJvZmVzb3Jlc0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ADSA/Documents/ProyectosC\#/WebApplicationMVC/Views/Shared/Error.cshtml]
@@ -44,6 +52,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ADSA/Documents/ProyectosC\#/WebApplicationMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADSA/Documents/ProyectosC\#/WebApplicationMVC/Views/Student/StudentAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50QWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADSA/Documents/ProyectosC\#/WebApplicationMVC/Views/Student/StudentEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50RWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADSA/Documents/ProyectosC\#/WebApplicationMVC/Views/Student/StudentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50TGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ADSA/Documents/ProyectosC\#/WebApplicationMVC/Views/_ViewImports.cshtml]

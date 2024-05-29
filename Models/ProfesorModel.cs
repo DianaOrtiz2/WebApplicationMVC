@@ -1,11 +1,10 @@
 namespace WebApplicationMVC.Models;
 
-    public class ProfesorModel()
+    public class ProfesorModel : EmptyModel
 {
-    public string Materia { get; set; }
-    public string Nombre { get; set; }
-    public string Email { get; set; } 
-    public int Edad { get; set; }
-    public string Sexo { get; set; }
+    public ProfesorModel()
+    {
+        
+    }
 
 }

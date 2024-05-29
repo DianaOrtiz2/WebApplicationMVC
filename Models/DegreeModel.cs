@@ -1,13 +1,16 @@
+using WebApplicationMVC.Models;
+
 namespace WebApplicationMVC.Models
 {
-    public class DegreeModel()
-{
-    public string Carrera { get; set; }
-    
-    public int Tetra { get; set; }
-    
+    public class DegreeModel : BaseModel
+    {
+        public DegreeModel()
+        {
+            // Constructor
+        }
 
-}
+        public string Nombre { get; set; }
+    }
 }
 
     

@@ -1,0 +1,27 @@
+@{
+     ViewData["Title"] = "Alta de Profesores";
+}
+<form>
+    <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escribe el nombre del Maestro">
+
+        <label for="Materia" class="form-label">Materia</label>
+        <input type="text" class="form-control" id="Materia" name="Materia" placeholder="Escriba la Materia">
+
+        <label for="Edad" class="form-label">Edad</label>
+        <input type="text" class="form-control" id="Edad" name="Edad" placeholder="Escriba la edad">
+
+        <label for="Email" class="form-label">Corre Electronico</label>
+        <input type="text" class="form-control" id="Email" name="Email" placeholder="Escriba el correo electronico">
+
+        <label for="rol">Sexo</label>
+                <select class="form-control" id="rol">
+                    <option>Hombre</option>
+                    <option>Mujer</option>
+                </select>
+       
+    </div>
+    <button type="submit" class="btn btn-primary"> Guardar</button>
+    <button type="submit" class="btn btn-secundary"> Cancelar</button>
+</form>

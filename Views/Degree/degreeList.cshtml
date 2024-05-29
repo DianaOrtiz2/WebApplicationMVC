@@ -1,0 +1,55 @@
+@model  IEnumerable<DegreeModel> ;
+
+@{
+    ViewData["Title"] = "Lista Carreras";
+    DateTime  fecha = new DateTime (2024,05,20);
+}
+
+<h1>@ViewData["Lista de Carreras"]</h1>
+<i>@DateTime.Now</> <br>
+<i>@fecha.ToLongDateString()</i> <br><br>
+
+<h2 align = "center" class="display-2" class="btn btn-primary">Lista de Carreras.</h2>
+<a asp-controller="Degree" asp-action="DegreeAdd" class ="btn btn-primary mb-3">Agregar Carrera</a>
+
+<table class="table"> 
+    <thead>
+        <tr>
+            <th>Acciones</th>
+            <th>Nombre</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach (var Dregree in Model)
+        {
+            <tr>
+                <td>
+                    <a class="btn btn-primary" asp-controller ="Degree" asp-action ="DregreeShowandEdit"> Editar</a>
+
+                    <a class="btn btn-primary" asp-controller ="Degree" asp-action ="DregreeShowToDelete">Borrar</a>
+                </td>
+                <td>
+                    @Dregree.Nombre
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+
+
+    <tr>
+        <th>Carrera</th>
+        <th>Tetras</th>
+    </tr>
+    <tr>
+        <td>@Model.Carrera</td>
+        <td>@Model.Tetra</td>
+        
+    </tr>
+</table>
+
+
+
